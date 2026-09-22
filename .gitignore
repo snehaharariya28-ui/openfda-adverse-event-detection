@@ -1,0 +1,23 @@
+# environment variables / secrets
+.env
+
+# raw and processed data
+data/raw/
+data/processed/
+
+# trained model files
+models/*.joblib
+models/*.pkl
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# jupyter
+.ipynb_checkpoints/
+
+# OS/editor clutter
+.DS_Store
+.vscode/
